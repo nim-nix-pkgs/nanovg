@@ -11,6 +11,7 @@
   inputs.src-nanovg-v0_2_1.ref   = "refs/tags/v0.2.1";
   inputs.src-nanovg-v0_2_1.owner = "johnnovak";
   inputs.src-nanovg-v0_2_1.repo  = "nim-nanovg";
+  inputs.src-nanovg-v0_2_1.dir   = "";
   inputs.src-nanovg-v0_2_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

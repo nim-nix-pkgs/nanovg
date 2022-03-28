@@ -11,7 +11,6 @@
   inputs.src-nanovg-master.ref   = "refs/heads/master";
   inputs.src-nanovg-master.owner = "johnnovak";
   inputs.src-nanovg-master.repo  = "nim-nanovg";
-  inputs.src-nanovg-master.dir   = "";
   inputs.src-nanovg-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

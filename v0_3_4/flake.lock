@@ -37,10 +37,10 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-nanovg-master": "src-nanovg-master"
+        "src-nanovg-v0_3_4": "src-nanovg-v0_3_4"
       }
     },
-    "src-nanovg-master": {
+    "src-nanovg-v0_3_4": {
       "flake": false,
       "locked": {
         "lastModified": 1656133262,
@@ -52,7 +52,7 @@
       },
       "original": {
         "owner": "johnnovak",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/v0.3.4",
         "repo": "nim-nanovg",
         "type": "github"
       }
